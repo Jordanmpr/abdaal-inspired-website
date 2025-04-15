@@ -1,3 +1,4 @@
+
 import ButtonLink from "../ui/button-link";
 import { useEffect, useState } from "react";
 
@@ -38,7 +39,7 @@ const Hero = () => {
           </div>
           
           <div className={`relative ${isLoaded ? 'animate-fade-in' : 'opacity-0'}`} style={{ animationDelay: '0.2s' }}>
-            <div className="aspect-video w-full h-full overflow-hidden">
+            <div className="aspect-video w-full h-full overflow-hidden rounded-3xl">
               <img 
                 src="/lovable-uploads/6ebb7c53-7b41-4443-98fc-882ad875c664.png" 
                 alt="Persona trabajando" 
@@ -53,3 +54,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
