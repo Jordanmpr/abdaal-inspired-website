@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
           
           <div className={`rounded-3xl bg-secondary/50 p-8 relative ${isLoaded ? 'animate-fade-in' : 'opacity-0'}`} style={{ animationDelay: '0.2s' }}>
-            <div className="aspect-video rounded-2xl overflow-hidden bg-accent-yellow/20 flex items-center justify-center">
+            <div className="aspect-video overflow-hidden">
               <img 
                 src="/lovable-uploads/6ebb7c53-7b41-4443-98fc-882ad875c664.png" 
                 alt="Persona trabajando" 
